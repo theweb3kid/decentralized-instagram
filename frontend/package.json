@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dicebear/avatars": "^4.10.2",
+    "@dicebear/open-peeps": "^4.10.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "datauri": "^4.1.0",
+    "ethers": "^5.5.4",
+    "firebase": "^9.6.6",
+    "image-to-base64": "^2.2.0",
+    "image-to-data-uri": "^1.1.0",
+    "image-to-uri": "^1.0.0",
+    "ipfs-http-client": "^56.0.1",
+    "nft.storage": "^6.0.0",
+    "random-name": "^0.1.2",
+    "random-names-generator": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ipfs-uploader": "^1.2.5",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
